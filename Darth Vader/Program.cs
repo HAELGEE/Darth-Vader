@@ -10,8 +10,18 @@ internal class Program
     {
         Console.WriteLine("Hej jag heter Måns");
         Console.WriteLine("saidj");
+
+        string value;
+
+        Console.WriteLine("Yes or No");
+        Fucked(value);
     }
 
+    void Fucked(string value)
+    {
+        if (value == "Yes")
+        Console.WriteLine("You are fucked");
+    }
     
 
     //  Git https://github.com/HAELGEE/Darth-Vader
