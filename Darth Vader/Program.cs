@@ -11,10 +11,6 @@ internal class Program
         Console.WriteLine("Amer");
     }
 
-    static void Fucked(string value)
-    {
-        
-    }
 
 
     //  Git https://github.com/HAELGEE/Darth-Vader
