@@ -8,26 +8,12 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hej jag heter Måns");
-        Console.WriteLine("saidj");
-
-        string value = null;
-
-        do
-        {
-            Console.WriteLine("Yes or No");
-            value = Console.ReadLine().ToLower();
-        } while (value != "yes" || value != "no");
-
-        Fucked(value);
+        Console.WriteLine("Amer");
     }
 
     static void Fucked(string value)
     {
-        if (value.Contains("yes"))
-            Console.WriteLine("You are fucked");
-        else
-            Console.WriteLine("You are Raped instead");
+        
     }
 
 
