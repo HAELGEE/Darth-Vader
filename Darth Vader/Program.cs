@@ -10,6 +10,7 @@ internal class Program
     {
         Console.WriteLine("Hej jag heter Måns");
         Console.WriteLine("saidj");
+        Console.WriteLine("Christofer");
     }
 
     
