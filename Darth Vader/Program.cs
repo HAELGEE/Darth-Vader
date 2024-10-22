@@ -11,13 +11,13 @@ internal class Program
         Console.WriteLine("Hej jag heter Måns");
         Console.WriteLine("saidj");
 
-        string value = null;
+        string value = "hej";
 
         do
         {
             Console.WriteLine("Yes or No");
             value = Console.ReadLine().ToLower();
-        } while (value != "yes" || value != "no");
+        } while (value != "yes" && value != "no");
 
         Fucked(value);
     }
