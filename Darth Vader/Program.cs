@@ -1,9 +1,4 @@
-﻿using static System.Net.Mime.MediaTypeNames;
-using System.Collections.Generic;
-using System.Runtime.InteropServices;
-using System.Diagnostics.CodeAnalysis;
-
-namespace Darth_Vader;
+﻿namespace Darth_Vader;
 
 internal class Program
 {
@@ -18,6 +13,7 @@ internal class Program
     {
         int sum = value + value2;
         Console.WriteLine(sum);
+        Console.WriteLine(sum + 2);
     }
 
     //  Git https://github.com/HAELGEE/Darth-Vader
