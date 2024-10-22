@@ -13,7 +13,7 @@ internal class Program
     {
         int sum = value + value2;
         Console.WriteLine(sum);
-        Console.WriteLine(sum + 2);
+        Console.WriteLine(sum + 2); // Hej
     }
 
     //  Git https://github.com/HAELGEE/Darth-Vader
