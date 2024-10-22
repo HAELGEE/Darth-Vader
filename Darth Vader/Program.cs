@@ -1,17 +1,14 @@
-﻿using static System.Net.Mime.MediaTypeNames;
-using System.Collections.Generic;
-using System.Runtime.InteropServices;
-
-namespace Darth_Vader;
+﻿namespace Darth_Vader;
 
 internal class Program
 {
     static void Main(string[] args)
     {
         Console.WriteLine("Hej jag heter Måns");
+        Console.WriteLine("saidj");
     }
 
-    
+
 
     //  Git https://github.com/HAELGEE/Darth-Vader
     //  ===
