@@ -11,18 +11,25 @@ internal class Program
         Console.WriteLine("Hej jag heter Måns");
         Console.WriteLine("saidj");
 
-        string value;
+        string value = null;
 
-        Console.WriteLine("Yes or No");
+        do
+        {
+            Console.WriteLine("Yes or No");
+            value = Console.ReadLine().ToLower();
+        } while (value != "yes" || value != "no");
+
         Fucked(value);
     }
 
-    void Fucked(string value)
+    static void Fucked(string value)
     {
-        if (value == "Yes")
-        Console.WriteLine("You are fucked");
+        if (value.Contains("yes"))
+            Console.WriteLine("You are fucked");
+        else
+            Console.WriteLine("You are Raped instead");
     }
-    
+
 
     //  Git https://github.com/HAELGEE/Darth-Vader
     //  ===
